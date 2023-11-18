@@ -7,12 +7,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "export": "yarn run build && next export && mv out _static"
+    "start": "next start"
+
   },
-  "engines": {
-    "node": "18.x"
-  },
+ 
   "dependencies": {
     "dayjs": "^1.11.7",
     "email-validator": "^2.0.4",
