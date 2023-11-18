@@ -11,8 +11,11 @@
     "export": "yarn run build && next export && mv out _static"
   },
   "engines": {
-    "node": "18.x"
+    "node": "14.x"
   },
+
+  
+ 
   "dependencies": {
     "dayjs": "^1.11.7",
     "email-validator": "^2.0.4",
