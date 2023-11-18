@@ -1,4 +1,4 @@
-import { Menu } from '@headlessui/react'
+//import { Menu } from '@headlessui/react'
 import blockNames from '../blockNames'
 import React from 'react'
 import { Text, types, Link } from 'react-bricks/frontend'
@@ -13,8 +13,8 @@ const HeaderMenuSubItem: types.Brick<HeaderMenuSubItemProps> = ({
   linkPath,
 }) => {
   return (
-    <Link href={linkPath} className="group p-0 mb-3 lg:p-3 flex items-start">
-      <div className="text-sky-500 lg:hidden mr-2">
+    <Link href={linkPath} className="flex items-start p-0 mb-3 group lg:p-3">
+      <div className="mr-2 text-sky-500 lg:hidden">
         <FiChevronRight />
       </div>
       <div className="flex-1 overflow-hidden lg:overflow-auto">
